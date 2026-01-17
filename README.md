@@ -25,3 +25,5 @@ Mi nombre es **Jhonatan Juan Carlos Delgado Gómez**, estudio **Ingeniería de S
 Mi nombre es **Ronald Ariel Vargas Negret**, soy estudiante egresado de la universidad de Nariño sede Tumaco del programa ingeniería de sistemas, estudiante del diplomado **Metodologías ágiles y tecnológicas avanzadas**.
 
 Mi nombre es **Juan Camilo Nupan Portilla**, soy estudiante de ingeneria de sistemas en la universidad de nariño sede Pasto, actualmente estoy realizando el diplomado **Metodologías ágiles y tecnológicas avanzadas** como proyecto de grado.
+
+Soy **Camila Dayana Torres Cortes**, egresada del programa de **Ingeniería de Sistemas de la Universidad de Nariño** (aún no titulada). Actualmente curso el **diplomado en Metodologías Ágiles**, y desempeño labores en una bodega de licores al por mayor, gestionando inventarios, créditos y proveedores de manera sistematizada.
