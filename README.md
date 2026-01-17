@@ -1,5 +1,5 @@
 # Proyecto_Diplomado
-Proyecto académico 
+Proyecto académico para el módulo 2 del Diplomado de Metodológias ágiles de la Universidad de Nariño
 
 ## Descripción del problema
 
