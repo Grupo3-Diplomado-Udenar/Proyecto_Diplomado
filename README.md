@@ -17,3 +17,5 @@ Mi nombre es **Luz Carine Ortega Chaucanés**, soy egresada de la **Universidad 
 Mi nombre es **Jhonatan Juan Carlos Delgado Gómez**, estudio **Ingeniería de Sistemas en la Universidad de Nariño**, actualmente curso el diplomado en **Metodologías ágiles y tecnológicas avanzadas**, también estoy haciendo un curso sobre fullstack.
 
 Mi nombre es **Ronald Ariel Vargas Negret**, soy estudiante egresado de la universidad de Nariño sede Tumaco del programa ingeniería de sistemas, estudiante del diplomado **Metodologías ágiles y tecnológicas avanzadas**.
+
+Mi nombre es **Juan Camilo Nupan Portilla**, soy estudiante de ingeneria de sistemas en la universidad de nariño sede Pasto, actualmente estoy realizando el diplomado **Metodologías ágiles y tecnológicas avanzadas** como proyecto de grado.
