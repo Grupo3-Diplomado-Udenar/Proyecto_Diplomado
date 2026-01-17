@@ -37,9 +37,6 @@ Mi nombre es **Juan Camilo Nupan Portilla**, soy estudiante de ingeneria de sist
 
 Soy **Camila Dayana Torres Cortes**, egresada del programa de **Ingeniería de Sistemas de la Universidad de Nariño** (aún no titulada). Actualmente curso el **diplomado en Metodologías Ágiles**, y desempeño labores en una bodega de licores al por mayor, gestionando inventarios, créditos y proveedores de manera sistematizada.
 
-<<<<<<< HEAD
-Soy **Camila Dayana Torres Cortes**, egresada del programa de **Ingeniería de Sistemas de la Universidad de Nariño** (aún no titulada). Actualmente curso el **diplomado en Metodologías Ágiles**, y desempeño labores en una bodega de licores al por mayor, gestionando inventarios, créditos y proveedores de manera sistematizada.
-
 ## Stack Tecnológico
 
 El proyecto está construido utilizando las siguientes tecnologías modernas:
@@ -48,4 +45,3 @@ El proyecto está construido utilizando las siguientes tecnologías modernas:
 * **Backend:** [NestJS](https://nestjs.com/) - Framework progresivo de Node.js para construir aplicaciones del lado del servidor eficientes y escalables.
 * **Lenguaje:** [TypeScript](https://www.typescriptlang.org/) - Superconjunto de JavaScript que añade tipado estático.
 * **Herramientas de Desarrollo:** Git, GitHub, NPM.
->>>>>>> 26fbacc7fe30dede8ee151a7c92a30c93083c8f6
