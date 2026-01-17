@@ -1,13 +1,20 @@
 # Proyecto_Diplomado
 
+<<<<<<< HEAD
 Proyecto académico para el módulo 2 del Diplomado de Metodologías ágiles de la Universidad de Nariño.
 
 ## Objetivo
 
 Iniciar el trabajo colaborativo basado en una problemática real, aplicando metodologías ágiles y tecnologías modernas para desarrollar una solución efectiva.
+=======
+Proyecto académico para el módulo 2 del Diplomado de Metodológias ágiles y tecnologias avanzas de la Universidad de Nariño
+>>>>>>> 93931938e1ca1f83ab3008adcd95e1283a969d4b
 
 ## Descripción del problema
 
+Actualmente, los estudiantes egresados de carreras afines a las **STEM** enfrentan serias dificultades para acceder a oportunidades de prácticas profesionales, debido a la ausencia de un canal único, estructurado y confiable que centralice este tipo de ofertas. La información relacionada con prácticas suele encontrarse dispersa en múltiples medios informales, como correos institucionales, grupos de WhatsApp o publicaciones en redes sociales, lo que genera desorganización, desactualización de la información y pérdida de oportunidades.
+
+Esta fragmentación dificulta que los estudiantes identifiquen opciones acordes con su perfil académico, intereses y habilidades, y limita la posibilidad de realizar búsquedas eficientes y comparativas entre distintas ofertas. Como consecuencia, muchos egresados experimentan retrasos en su inserción al mundo laboral o acceden a prácticas que no se ajustan a su formación profesional.
 Actualmente, existe una desconexión significativa entre el talento académico formado en las instituciones de educación superior y las necesidades reales del sector productivo.
 
 Esta brecha genera fricciones para los tres actores principales del ecosistema:
