@@ -1,6 +1,10 @@
 # Proyecto_Diplomado
 
-Proyecto académico para el módulo 2 del Diplomado de Metodológias ágiles de la Universidad de Nariño
+Proyecto académico para el módulo 2 del Diplomado de Metodologías ágiles de la Universidad de Nariño.
+
+## Objetivo
+
+Iniciar el trabajo colaborativo basado en una problemática real, aplicando metodologías ágiles y tecnologías modernas para desarrollar una solución efectiva.
 
 ## Descripción del problema
 
@@ -8,9 +12,9 @@ Actualmente, existe una desconexión significativa entre el talento académico f
 
 Esta brecha genera fricciones para los tres actores principales del ecosistema:
 
-*   **Para los Estudiantes Egresados:** Dificultad para encontrar ofertas de prácticas profesionales que se alineen específicamente con su perfil técnico y académico. Los portales de empleo genéricos suelen estar saturados de ofertas irrelevantes, dificultando su primera inserción laboral.
-*   **Para las Empresas:** Los procesos de reclutamiento para perfiles técnicos son ineficientes. Las organizaciones invierten demasiados recursos filtrando hojas de vida que no cumplen con las competencias base, debido a la falta de un canal directo con las facultades y programas académicos.
-*   **Para la Universidad:** Falta de herramientas digitales centralizadas que permitan gestionar, medir y fortalecer el vínculo con el entorno empresarial, limitando el seguimiento al éxito profesional de sus egresados.
+* **Para los Estudiantes Egresados:** Dificultad para encontrar ofertas de prácticas profesionales que se alineen específicamente con su perfil técnico y académico. Los portales de empleo genéricos suelen estar saturados de ofertas irrelevantes, dificultando su primera inserción laboral.
+* **Para las Empresas:** Los procesos de reclutamiento para perfiles técnicos son ineficientes. Las organizaciones invierten demasiados recursos filtrando hojas de vida que no cumplen con las competencias base, debido a la falta de un canal directo con las facultades y programas académicos.
+* **Para la Universidad:** Falta de herramientas digitales centralizadas que permitan gestionar, medir y fortalecer el vínculo con el entorno empresarial, limitando el seguimiento al éxito profesional de sus egresados.
 
 **STEM Link** nace para solucionar este problema de articulación, proveyendo una plataforma centralizada que optimiza el "match" entre las competencias adquiridas en la academia y las demandas del mercado laboral.
 
@@ -18,10 +22,19 @@ Esta brecha genera fricciones para los tres actores principales del ecosistema:
 
 ## Acerca de los autores
 
-Mi nombre es **Luz Carine Ortega Chaucanés**, soy egresada de la **Universidad de Nariño del programa de Ingeniería de Sistemas**, actualmente me encuentro cursando el diplomado en metodologías ágiles y tecnologías avanzadas tambien me encuentro cursando un curso de analisis de datos con el program de Talento Tech. 
+Mi nombre es **Luz Carine Ortega Chaucanés**, soy egresada de la **Universidad de Nariño del programa de Ingeniería de Sistemas**, actualmente me encuentro cursando el diplomado en metodologías ágiles y tecnologías avanzadas tambien me encuentro cursando un curso de analisis de datos con el program de Talento Tech.
 
 Mi nombre es **Jhonatan Juan Carlos Delgado Gómez**, estudio **Ingeniería de Sistemas en la Universidad de Nariño**, actualmente curso el diplomado en **Metodologías ágiles y tecnológicas avanzadas**, también estoy haciendo un curso sobre fullstack.
 
 Mi nombre es **Ronald Ariel Vargas Negret**, soy estudiante egresado de la universidad de Nariño sede Tumaco del programa ingeniería de sistemas, estudiante del diplomado **Metodologías ágiles y tecnológicas avanzadas**.
 
 Mi nombre es **Juan Camilo Nupan Portilla**, soy estudiante de ingeneria de sistemas en la universidad de nariño sede Pasto, actualmente estoy realizando el diplomado **Metodologías ágiles y tecnológicas avanzadas** como proyecto de grado.
+
+## Stack Tecnológico
+
+El proyecto está construido utilizando las siguientes tecnologías modernas:
+
+* **Frontend:** [React](https://reactjs.org/) - Biblioteca de JavaScript para construir interfaces de usuario.
+* **Backend:** [NestJS](https://nestjs.com/) - Framework progresivo de Node.js para construir aplicaciones del lado del servidor eficientes y escalables.
+* **Lenguaje:** [TypeScript](https://www.typescriptlang.org/) - Superconjunto de JavaScript que añade tipado estático.
+* **Herramientas de Desarrollo:** Git, GitHub, NPM.
