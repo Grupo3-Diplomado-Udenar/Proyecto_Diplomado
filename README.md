@@ -1,16 +1,25 @@
 # Proyecto_Diplomado
 
-Proyecto académico para el módulo 2 del Diplomado de Metodológias ágiles de la Universidad de Nariño
+Proyecto académico para el módulo 2 del Diplomado de Metodologías ágiles de la Universidad de Nariño.
+
+## Objetivo
+
+Iniciar el trabajo colaborativo basado en una problemática real, aplicando metodologías ágiles y tecnologías modernas para desarrollar una solución efectiva.
+
+Proyecto académico para el módulo 2 del Diplomado de Metodológias ágiles y tecnologias avanzas de la Universidad de Nariño
 
 ## Descripción del problema
 
+Actualmente, los estudiantes egresados de carreras afines a las **STEM** enfrentan serias dificultades para acceder a oportunidades de prácticas profesionales, debido a la ausencia de un canal único, estructurado y confiable que centralice este tipo de ofertas. La información relacionada con prácticas suele encontrarse dispersa en múltiples medios informales, como correos institucionales, grupos de WhatsApp o publicaciones en redes sociales, lo que genera desorganización, desactualización de la información y pérdida de oportunidades.
+
+Esta fragmentación dificulta que los estudiantes identifiquen opciones acordes con su perfil académico, intereses y habilidades, y limita la posibilidad de realizar búsquedas eficientes y comparativas entre distintas ofertas. Como consecuencia, muchos egresados experimentan retrasos en su inserción al mundo laboral o acceden a prácticas que no se ajustan a su formación profesional.
 Actualmente, existe una desconexión significativa entre el talento académico formado en las instituciones de educación superior y las necesidades reales del sector productivo.
 
 Esta brecha genera fricciones para los tres actores principales del ecosistema:
 
-*   **Para los Estudiantes Egresados:** Dificultad para encontrar ofertas de prácticas profesionales que se alineen específicamente con su perfil técnico y académico. Los portales de empleo genéricos suelen estar saturados de ofertas irrelevantes, dificultando su primera inserción laboral.
-*   **Para las Empresas:** Los procesos de reclutamiento para perfiles técnicos son ineficientes. Las organizaciones invierten demasiados recursos filtrando hojas de vida que no cumplen con las competencias base, debido a la falta de un canal directo con las facultades y programas académicos.
-*   **Para la Universidad:** Falta de herramientas digitales centralizadas que permitan gestionar, medir y fortalecer el vínculo con el entorno empresarial, limitando el seguimiento al éxito profesional de sus egresados.
+* **Para los Estudiantes Egresados:** Dificultad para encontrar ofertas de prácticas profesionales que se alineen específicamente con su perfil técnico y académico. Los portales de empleo genéricos suelen estar saturados de ofertas irrelevantes, dificultando su primera inserción laboral.
+* **Para las Empresas:** Los procesos de reclutamiento para perfiles técnicos son ineficientes. Las organizaciones invierten demasiados recursos filtrando hojas de vida que no cumplen con las competencias base, debido a la falta de un canal directo con las facultades y programas académicos.
+* **Para la Universidad:** Falta de herramientas digitales centralizadas que permitan gestionar, medir y fortalecer el vínculo con el entorno empresarial, limitando el seguimiento al éxito profesional de sus egresados.
 
 **STEM Link** nace para solucionar este problema de articulación, proveyendo una plataforma centralizada que optimiza el "match" entre las competencias adquiridas en la academia y las demandas del mercado laboral.
 
@@ -18,7 +27,7 @@ Esta brecha genera fricciones para los tres actores principales del ecosistema:
 
 ## Acerca de los autores
 
-Mi nombre es **Luz Carine Ortega Chaucanés**, soy egresada de la **Universidad de Nariño del programa de Ingeniería de Sistemas**, actualmente me encuentro cursando el diplomado en metodologías ágiles y tecnologías avanzadas tambien me encuentro cursando un curso de analisis de datos con el program de Talento Tech. 
+Mi nombre es **Luz Carine Ortega Chaucanés**, soy egresada de la **Universidad de Nariño del programa de Ingeniería de Sistemas**, actualmente me encuentro cursando el diplomado en metodologías ágiles y tecnologías avanzadas tambien me encuentro cursando un curso de analisis de datos con el program de Talento Tech.
 
 Mi nombre es **Jhonatan Juan Carlos Delgado Gómez**, estudio **Ingeniería de Sistemas en la Universidad de Nariño**, actualmente curso el diplomado en **Metodologías ágiles y tecnológicas avanzadas**, también estoy haciendo un curso sobre fullstack.
 
@@ -27,3 +36,16 @@ Mi nombre es **Ronald Ariel Vargas Negret**, soy estudiante egresado de la unive
 Mi nombre es **Juan Camilo Nupan Portilla**, soy estudiante de ingeneria de sistemas en la universidad de nariño sede Pasto, actualmente estoy realizando el diplomado **Metodologías ágiles y tecnológicas avanzadas** como proyecto de grado.
 
 Soy **Camila Dayana Torres Cortes**, egresada del programa de **Ingeniería de Sistemas de la Universidad de Nariño** (aún no titulada). Actualmente curso el **diplomado en Metodologías Ágiles**, y desempeño labores en una bodega de licores al por mayor, gestionando inventarios, créditos y proveedores de manera sistematizada.
+
+<<<<<<< HEAD
+Soy **Camila Dayana Torres Cortes**, egresada del programa de **Ingeniería de Sistemas de la Universidad de Nariño** (aún no titulada). Actualmente curso el **diplomado en Metodologías Ágiles**, y desempeño labores en una bodega de licores al por mayor, gestionando inventarios, créditos y proveedores de manera sistematizada.
+
+## Stack Tecnológico
+
+El proyecto está construido utilizando las siguientes tecnologías modernas:
+
+* **Frontend:** [React](https://reactjs.org/) - Biblioteca de JavaScript para construir interfaces de usuario.
+* **Backend:** [NestJS](https://nestjs.com/) - Framework progresivo de Node.js para construir aplicaciones del lado del servidor eficientes y escalables.
+* **Lenguaje:** [TypeScript](https://www.typescriptlang.org/) - Superconjunto de JavaScript que añade tipado estático.
+* **Herramientas de Desarrollo:** Git, GitHub, NPM.
+>>>>>>> 26fbacc7fe30dede8ee151a7c92a30c93083c8f6
