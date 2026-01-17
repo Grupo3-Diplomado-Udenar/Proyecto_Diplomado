@@ -2,3 +2,6 @@
 Proyecto académico 
 
 ## Descripción del problema
+
+
+## Grupo 3
