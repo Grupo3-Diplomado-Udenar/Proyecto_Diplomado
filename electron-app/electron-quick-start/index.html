@@ -4,13 +4,78 @@
 <head>
   <meta charset="UTF-8">
   <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
   <meta http-equiv="Content-Security-Policy"
     content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'">
   <link href="./styles.css" rel="stylesheet">
-  <title>Hello World!</title>
+  <title>STEAM LINK</title>
 </head>
 
 <body>
+
+  <nav class="navbar">
+    <ul class="nav-menu">
+      <li class="nav-item"><a href="#inicio" class="nav-link active">Inicio</a></li>
+      <li class="nav-item"><a href="#proyecto" class="nav-link">Acerca del Proyecto</a></li>
+      <li class="nav-item"><a href="#autores" class="nav-link">Acerca de los Autores</a></li>
+      <li class="nav-item"><a href="#tecnologias" class="nav-link">Tecnologías</a></li>
+    </ul>
+    <div class="logo-container">
+      <img src="./assets/logo1.png" alt="Logo STEAM LINK" class="logo">
+    </div>
+  </nav>
+
+  <div class="container">
+    <section id="inicio" class="content-section active">
+      <h1>Inicio</h1>
+      <p>Bienvenido al proyecto</p>
+    </section>
+
+    <section id="proyecto" class="content-section">
+      <h1>Acerca del Proyecto</h1>
+      <p>Descripción del proyecto...</p>
+    </section>
+
+    <section id="autores" class="content-section py-5">
+
+      <div class="container">
+
+        <h1>Acerca de los Autores</h1>
+
+        <div class="row g-4">
+
+          <!-- Autor 1 -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100 text-center">
+              <img src="img/autor1.jpg" class="card-img-top" alt="Autor 1">
+              <div class="card-body">
+                <h5 class="card-title">Nombre Autor 1</h5>
+                <p class="card-text">
+                  Breve descripción del autor, su rol o aporte dentro del proyecto.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Autor 2 -->
+
+
+        </div>
+
+
+
+      </div>
+
+
+    </section>
+
+    <section id="tecnologias" class="content-section active">
+      <h1></h1>
+      <p></p>
+    </section>
+
+  </div>
+
   <h1>Hello World!</h1>
   We are using Node.js <span id="node-version"></span>,
   Chromium <span id="chrome-version"></span>,
@@ -20,8 +85,10 @@
   <h1>Juan Camilo Nupan Portilla</h1>
   <h1>Jhonatan Juan Carlos Delgado Gómez</h1>
   <h1>Camila Dayana Torres Cortes</h1>
-  <h2 id="label"></h2>
+
+
   <!-- You can also require other files to run in this process -->
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   <script src="./renderer.js"></script>
 </body>
 
