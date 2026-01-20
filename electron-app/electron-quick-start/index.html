@@ -1,3 +1,16 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <meta http-equiv="Content-Security-Policy"
+    content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'">
+  <link href="./styles.css" rel="stylesheet">
+  <title>STEAM LINK</title>
+</head>
+
 <body>
 
   <nav class="navbar">
@@ -13,71 +26,70 @@
   </nav>
 
   <div class="container">
-
-    <!-- 🔸 INICIO (Tu trabajo Camila) -->
-    <section id="inicio" class="content-section active text-center py-5">
-
-      <h1 class="fw-bold">STEAM LINK</h1>
-
-      <p class="lead mt-3">
-        Proyecto académico del Diplomado en Metodologías Ágiles y Tecnologías Avanzadas
-        de la Universidad de Nariño.
-      </p>
-
-      <h3 class="mt-4">Autores</h3>
-      <ul class="list-unstyled">
-        <li>Luz Carine Ortega Chaucanés</li>
-        <li>Jhonatan Juan Carlos Delgado Gómez</li>
-        <li>Ronald Ariel Vargas Negret</li>
-        <li>Juan Camilo Nupan Portilla</li>
-        <li>Camila Dayana Torres Cortes</li>
-      </ul>
-
-      <div class="mt-4">
-        <img src="./assets/logo1.png" alt="Logo" class="img-fluid" style="max-width: 260px;">
-      </div>
-
+    <section id="inicio" class="content-section active">
+      <h1>Inicio</h1>
+      <p>Bienvenido al proyecto</p>
     </section>
 
-    <!-- 🔸 PROYECTO (lo llena Camilo) -->
     <section id="proyecto" class="content-section">
       <h1>Acerca del Proyecto</h1>
-      <p class="text-muted">(Descripción del problema y contexto a cargo de Camilo)</p>
+      <p>Descripción del proyecto...</p>
     </section>
 
-    <!-- 🔸 AUTORES (cada uno llena tarjeta + foto) -->
     <section id="autores" class="content-section py-5">
 
       <div class="container">
+
         <h1>Acerca de los Autores</h1>
-        <p class="text-muted">Cada autor agregará su fotografía y descripción aquí.</p>
 
         <div class="row g-4">
-          <!-- Ejemplo de tarjeta -->
+
+          <!-- Autor 1 -->
           <div class="col-md-6 col-lg-4">
             <div class="card h-100 text-center">
-              <img src="./assets/autor.jpg" class="card-img-top" alt="Autor">
+              <img src="img/autor1.jpg" class="card-img-top" alt="Autor 1">
               <div class="card-body">
-                <h5 class="card-title">Nombre Autor</h5>
-                <p class="card-text">Descripción del autor...</p>
+                <h5 class="card-title">Nombre Autor 1</h5>
+                <p class="card-text">
+                  Breve descripción del autor, su rol o aporte dentro del proyecto.
+                </p>
               </div>
             </div>
           </div>
+
+          <!-- Autor 2 -->
+
+
         </div>
+
+
 
       </div>
 
+
     </section>
 
-    <!-- 🔸 TECNOLOGÍAS (lo hace Jhonatan) -->
-    <section id="tecnologias" class="content-section py-5">
-      <h1>Tecnologías</h1>
-      <p class="text-muted">(Tecnologías e imágenes a cargo de Jhonatan)</p>
+    <section id="tecnologias" class="content-section active">
+      <h1></h1>
+      <p></p>
     </section>
 
   </div>
 
+  <h1>Hello World!</h1>
+  We are using Node.js <span id="node-version"></span>,
+  Chromium <span id="chrome-version"></span>,
+  and Electron <span id="electron-version"></span>.
+  <h1>Luz Carine Ortega Chaucanes</h1>
+  <h1>Ronald Ariel Vargas Negret</h1>
+  <h1>Juan Camilo Nupan Portilla</h1>
+  <h1>Jhonatan Juan Carlos Delgado Gómez</h1>
+  <h1>Camila Dayana Torres Cortes</h1>
+
+
+  <!-- You can also require other files to run in this process -->
   <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   <script src="./renderer.js"></script>
-
 </body>
+
+</html>
