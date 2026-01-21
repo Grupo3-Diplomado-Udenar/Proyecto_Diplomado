@@ -190,7 +190,11 @@ body {
   }
 }
 
-/* Estilos para las tarjetas de autores */
+/* ============================================
+   ESTILOS PARA TARJETAS (Autores y Tecnologías)
+   ============================================ */
+
+/* Estilos base para tarjetas de autores */
 .card {
   background: white;
   border-radius: 20px;
@@ -212,6 +216,7 @@ body {
   border-color: #667eea;
 }
 
+/* Imagen de las tarjetas de autores */
 .card-img-top {
   max-height: 250px;
   width: 80px;
@@ -228,6 +233,7 @@ body {
   transform: scale(1.05);
 }
 
+/* Cuerpo de la tarjeta */
 .card-body {
   display: flex;
   flex-direction: column;
@@ -235,18 +241,27 @@ body {
   padding: 0;
 }
 
+/* Título de la tarjeta */
 .card-title {
-  margin-bottom: 12px;
+  margin-bottom: 15px;
   font-size: 1.5rem;
   color: #2d3748;
   font-weight: 700;
+  text-align: center;
 }
 
+/* Texto descriptivo de la tarjeta */
 .card-text {
   font-size: 1rem;
   color: #718096;
   line-height: 1.6;
-  text-align: center;
+  text-align: justify;
+  margin: 0;
+}
+
+.card-text strong {
+  color: #4a5568;
+  font-weight: 600;
 }
 
 /* Responsive Design */
