@@ -170,6 +170,7 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  text-align: center;
 }
 
 .content-section p {
@@ -187,6 +188,14 @@ body {
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+/* Estilos para las tarjetas de autores */
+.card-img-top {
+  max-height: 250px;
+  object-fit: contain;
+  width: 100%;
+  padding: 10px;
 }
 
 /* Responsive Design */
