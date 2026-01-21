@@ -11,12 +11,193 @@ body {
   background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
   min-height: 100vh;
 }
+
+/* ============================================
+   ESTILOS PARA SECCIÓN DE INICIO
+   ============================================ */
+
+.inicio-hero {
+  text-align: center;
+  margin-bottom: 40px;
+  padding: 20px;
+}
+
 .img-inicio {
-  width: 350px;
+  width: 100%;
+  max-width: 450px;
   height: auto;
   display: block;
-  margin: 10px auto;
-  border-radius: 10px;
+  margin: 0 auto 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 40px rgba(102, 126, 234, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.img-inicio:hover {
+  transform: scale(1.02);
+}
+
+.inicio-subtitle {
+  font-size: 1.2rem;
+  color: #718096;
+  line-height: 1.8;
+  max-width: 800px;
+  margin: 20px auto;
+  font-weight: 400;
+  text-align: center;
+}
+
+.inicio-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+  margin: 40px 0;
+}
+
+.inicio-card {
+  background: white;
+  border-radius: 20px;
+  padding: 35px 25px;
+  text-align: center;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  border: 1px solid #edf2f7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+  height: 100%;
+}
+
+.inicio-card:hover {
+  transform: translateY(-12px);
+  box-shadow: 0 25px 50px -12px rgba(102, 126, 234, 0.25);
+  border-color: #667eea;
+}
+
+.inicio-icon-wrapper {
+  width: 80px;
+  height: 80px;
+  background: #f7fafc;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  transition: all 0.4s ease;
+}
+
+.inicio-card:hover .inicio-icon-wrapper {
+  background: #667eea;
+  transform: rotate(10deg);
+}
+
+.inicio-icon {
+  width: 45px;
+  height: 45px;
+  stroke: #4a5568;
+  transition: all 0.4s ease;
+}
+
+.inicio-card:hover .inicio-icon {
+  stroke: white;
+}
+
+.inicio-card h3 {
+  margin-bottom: 12px;
+  font-size: 1.5rem;
+  color: #2d3748;
+  font-weight: 700;
+}
+
+.inicio-card p {
+  font-size: 1rem;
+  color: #718096;
+  line-height: 1.6;
+}
+
+.inicio-team {
+  margin-top: 50px;
+  padding: 30px;
+  background: linear-gradient(135deg, #f7fafc 0%, #edf2f7 100%);
+  border-radius: 20px;
+  border: 1px solid #e2e8f0;
+}
+
+.inicio-team h2 {
+  text-align: center;
+  color: #2d3748;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.team-member-card {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 20px 25px;
+  background: white;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.team-member-card:hover {
+  transform: translateX(8px);
+  box-shadow: 0 8px 20px rgba(102, 126, 234, 0.15);
+  border-color: #667eea;
+}
+
+.member-avatar {
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1.1rem;
+  flex-shrink: 0;
+  box-shadow: 0 4px 10px rgba(102, 126, 234, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.team-member-card:hover .member-avatar {
+  transform: scale(1.1) rotate(5deg);
+}
+
+.team-member-card span {
+  color: #2d3748;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .inicio-cards-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .team-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .img-inicio {
+    max-width: 100%;
+  }
 }
 
 /* Estilos del menú */
