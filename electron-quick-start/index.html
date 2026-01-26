@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <meta http-equiv="Content-Security-Policy"
+    content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'">
+  <link href="./styles.css" rel="stylesheet">
+  <title>STEAM LINK</title>
+</head>
+
+<body>
+
+  <nav class="navbar">
+    <ul class="nav-menu">
+      <li class="nav-item"><a href="#inicio" class="nav-link active">Inicio</a></li>
+      <li class="nav-item"><a href="#proyecto" class="nav-link">Acerca del Proyecto</a></li>
+      <li class="nav-item"><a href="#autores" class="nav-link">Acerca de los Autores</a></li>
+      <li class="nav-item"><a href="#tecnologias" class="nav-link">Tecnologías</a></li>
+    </ul>
+    <div class="logo-container">
+      <img src="./assets/logo1.png" alt="Logo STEAM LINK" class="logo">
+    </div>
+  </nav>
+
+  <div class="container">
+    <section id="inicio" class="content-section active">
+      <div class="inicio-hero">
+        <img src="assets/steam.jpg" alt="STEAM Link" class="img-inicio">
+        <h1>STEAM LINK</h1>
+        <p class="inicio-subtitle">Plataforma digital para facilitar la articulación de prácticas profesionales entre estudiantes, Universidad y empresas.</p>
+      </div>
+
+      <div class="inicio-cards-grid">
+        <!-- Tarjeta Proyecto -->
+        <div class="inicio-card">
+          <div class="inicio-icon-wrapper">
+            <svg class="inicio-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+            </svg>
+          </div>
+          <h3>Proyecto Académico</h3>
+          <p>Módulo 2 del Diplomado en Metodologías Ágiles y Tecnologías Avanzadas - Universidad de Nariño.</p>
+        </div>
+
+        <!-- Tarjeta Objetivo -->
+        <div class="inicio-card">
+          <div class="inicio-icon-wrapper">
+            <svg class="inicio-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+          </div>
+          <h3>Objetivo</h3>
+          <p>Centralizar oportunidades de prácticas y pasantías, permitiendo una comunicación más eficiente y transparente entre todos los actores involucrados.</p>
+        </div>
+      </div>
+
+      <!-- Sección Integrantes -->
+      <div class="inicio-team">
+        <h2>Integrantes del Equipo</h2>
+        <div class="team-grid">
+          <div class="team-member-card">
+            <div class="member-avatar">LC</div>
+            <span>Luz Carine Ortega Chaucanes</span>
+          </div>
+          <div class="team-member-card">
+            <div class="member-avatar">RV</div>
+            <span>Ronald Ariel Vargas Negret</span>
+          </div>
+          <div class="team-member-card">
+            <div class="member-avatar">JN</div>
+            <span>Juan Camilo Nupan Portilla</span>
+          </div>
+          <div class="team-member-card">
+            <div class="member-avatar">JD</div>
+            <span>Jhonatan Juan Carlos Delgado Gómez</span>
+          </div>
+          <div class="team-member-card">
+            <div class="member-avatar">CT</div>
+            <span>Camila Dayana Torres Cortes</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="proyecto" class="content-section">
+      <h1>Acerca del Proyecto</h1>
+      <div class="proyecto-intro">
+        <div class="proyecto-intro-content">
+          <h2 class="proyecto-subtitle">Descripción del Problema</h2>
+          <p class="proyecto-description">
+            Actualmente, existe una <strong>desconexión significativa</strong> entre el talento académico formado en las 
+            instituciones de educación superior (específicamente en áreas <span class="stem-badge">STEM</span>: 
+            Ciencia, Tecnología, Ingeniería y Matemáticas) y las necesidades reales del sector productivo.
+          </p>
+          <p class="proyecto-description">
+            Esta brecha genera fricciones importantes para los tres actores principales del ecosistema educativo-laboral, 
+            limitando el potencial de desarrollo profesional y económico de la región.
+          </p>
+        </div>
+        <div class="proyecto-intro-visual">
+          <div class="problema-visual">
+            <div class="visual-circle academia">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 14l9-5-9-5-9 5 9 5z"/>
+                <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"/>
+                <path d="M12 14l9-5-9-5-9 5 9 5zm0 0v6"/>
+              </svg>
+              <span>Academia</span>
+            </div>
+            <div class="visual-gap">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M13 10V3L4 14h7v7l9-11h-7z"/>
+              </svg>
+              <span>Brecha</span>
+            </div>
+            <div class="visual-circle empresa">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/>
+              </svg>
+              <span>Empresas</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tarjetas de actores afectados -->
+      <h2 class="proyecto-section-title">Actores del Ecosistema Afectados</h2>
+      <div class="actores-grid">
+        <!-- Estudiantes -->
+        <div class="actor-card estudiantes">
+          <div class="actor-icon-wrapper">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 14l9-5-9-5-9 5 9 5z"/>
+              <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"/>
+            </svg>
+          </div>
+          <div class="actor-badge">Estudiantes Egresados</div>
+          <h3>Dificultad de Inserción Laboral</h3>
+          <p>
+            Los estudiantes enfrentan una <strong>dificultad significativa</strong> para encontrar ofertas de prácticas 
+            profesionales que se alineen específicamente con su perfil técnico y académico. Los portales de empleo 
+            genéricos suelen estar saturados de ofertas irrelevantes, obstaculizando su primera inserción laboral 
+            en el campo STEM.
+          </p>
+        </div>
+
+        <!-- Empresas -->
+        <div class="actor-card empresas">
+          <div class="actor-icon-wrapper">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/>
+            </svg>
+          </div>
+          <div class="actor-badge">Empresas</div>
+          <h3>Reclutamiento Ineficiente</h3>
+          <p>
+            Los procesos de reclutamiento para perfiles técnicos son <strong>altamente ineficientes</strong>. Las 
+            organizaciones invierten demasiados recursos filtrando hojas de vida que no cumplen con las competencias 
+            base, debido a la falta de un canal directo con las facultades y programas académicos especializados.
+          </p>
+        </div>
+
+        <!-- Universidad -->
+        <div class="actor-card universidad">
+          <div class="actor-icon-wrapper">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M8 14v3m4-3v3m4-3v3M3 21h18M3 10h18M3 7l9-4 9 4M4 10h16v11H4V10z"/>
+            </svg>
+          </div>
+          <div class="actor-badge">Universidad</div>
+          <h3>Gestión Limitada</h3>
+          <p>
+            Existe una <strong>falta de herramientas digitales centralizadas</strong> que permitan gestionar, medir y 
+            fortalecer el vínculo con el entorno empresarial. Esto limita considerablemente el seguimiento al éxito 
+            profesional de los egresados y la retroalimentación del mercado laboral.
+          </p>
+        </div>
+      </div>
+
+      <!-- Solución-->
+      <div class="solucion-section">
+        <div class="solucion-content">
+          <div class="solucion-badge">La Solución</div>
+          <h2>STEAM Link</h2>
+          <p>
+            <strong>STEAM Link</strong> nace para solucionar este problema de articulación, proveyendo una 
+            <strong>plataforma centralizada</strong> que optimiza el "match" entre las competencias adquiridas 
+            en la academia y las demandas del mercado laboral.
+          </p>
+          <div class="solucion-features">
+            <div class="feature-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+              </svg>
+              <span>Conexión directa estudiante-empresa</span>
+            </div>
+            <div class="feature-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+              </svg>
+              <span>Filtrado inteligente por competencias</span>
+            </div>
+            <div class="feature-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+              </svg>
+              <span>Seguimiento y métricas para la universidad</span>
+            </div>
+          </div>
+        </div>
+        <div class="solucion-visual">
+          <div class="match-visual">
+            <div class="match-circle left">
+              <span>👨‍🎓</span>
+              <small>Talento</small>
+            </div>
+            <div class="match-connector">
+              <div class="connector-line"></div>
+              <div class="match-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                </svg>
+              </div>
+              <div class="connector-line"></div>
+            </div>
+            <div class="match-circle right">
+              <span>💼</span>
+              <small>Oportunidad</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="autores" class="content-section py-5">
+
+      <div class="container">
+
+        <h1>Acerca de los Autores</h1>
+
+        <div class="row g-4">
+
+          <!-- Autor 1 -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100 text-center">
+              <img src="./assets/foto.jpg" class="card-img-top" alt="Autor 1">
+              <div class="card-body">
+                <h5 class="card-title">Luz Ortega</h5>
+                <p class="card-text">
+                  Mi nombre es <strong>Luz Carine Ortega Chaucanés</strong> , soy egresada de la <strong>Universidad de
+                    Nariño</strong> del programa de <strong>Ingeniería de Sistemas</strong>, actualmente me encuentro
+                  cursando el diplomado en
+                  metodologías ágiles y tecnologías avanzadas. Además me encuentro realizando el curso de analisis de
+                  datos con el programa de Talento Tech.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Autor 2 -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100 text-center">
+              <img src="./assets/fotoperfil.jpg" class="card-img-top" alt="Jhonatan Delgado">
+              <div class="card-body">
+                <h5 class="card-title">Jhonatan Delgado</h5>
+                <p class="card-text">
+                  Mi nombre es <strong>Jhonatan Juan Carlos Delgado Gómez</strong>, estudio <strong>Ingeniería de
+                    Sistemas en la Universidad de Nariño</strong>, actualmente curso el diplomado en
+                  <strong>Metodologías ágiles y tecnológicas avanzadas</strong>, también estoy haciendo un curso sobre
+                  <strong>fullstack</strong>.
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- Autor 3 -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100 text-center">
+              <img src="./assets/fotoc.jpg" class="card-img-top" alt="Camila Torres">
+              <div class="card-body">
+                <h5 class="card-title">Camila Torres</h5>
+                <p class="card-text">
+                  Mi nombre es <strong>Camila Dayana Torres Cortes</strong>, egresada del programa de 
+                    <strong>Ingeniería de Sistemas</strong> de la <strong>Universidad de Nariño</strong> 
+                    (aún no titulada). Actualmente curso el diplomado en 
+                    <strong>Metodologías Ágiles</strong>, y desempeño labores en una 
+                    <strong>bodega de licores al por mayor</strong>, gestionando inventarios, créditos 
+                     y proveedores de manera sistematizada.
+                  
+              </div>
+            </div>
+         </div>
+
+         <!-- Autor 4 -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100 text-center">
+              <img src="./assets/fotocam.jpeg" class="card-img-top" alt="Camilo Nupan">
+              <div class="card-body">
+                <h5 class="card-title">Camilo Nupan</h5>
+                <p class="card-text">
+                  Mi nombre es <strong>Juan Camilo Nupan Portilla</strong>, soy estudiante del programa de 
+                    <strong>Ingeniería de Sistemas</strong> en la <strong>Universidad de Nariño</strong>
+                    sede Pasto. Actualmente estoy realizando el diplomado
+                    <strong>Metodologías Ágiles y tecnológicas avanzadas</strong> como proyecto de grado.
+                  
+              </div>
+            </div>
+         </div>
+
+         <!-- Autor  -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100 text-center">
+              <img src="./assets/foto_r.jpg" class="card-img-top" alt="Ronald Vargas">
+              <div class="card-body">
+                <h5 class="card-title">Ronald Vargas</h5>
+                <p class="card-text">
+                  Mi nombre es <strong>Ronald ariel Vargas Negret</strong>, soy estudiante del programa de 
+                    <strong>Ingeniería de Sistemas</strong> en la <strong>Universidad de Nariño</strong>
+                    sede Tumaco. Actualmente estoy realizando el diplomado
+                    <strong>Metodologías Ágiles y tecnológicas avanzadas</strong> como proyecto de grado.
+                  
+              </div>
+            </div>
+         </div>
+
+        </div>
+
+
+
+      </div>
+
+
+    </section>
+
+    <section id="tecnologias" class="content-section">
+      <h1>Stack Tecnológico</h1>
+      <p>El proyecto está construido utilizando las siguientes tecnologías modernas:</p>
+
+      <div class="tech-stack-grid">
+        <!-- Frontend -->
+        <a href="https://reactjs.org/" target="_blank" class="tech-card">
+          <div class="tech-icon-wrapper">
+            <svg class="tech-icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M50 42c-2.2 0-4 1.8-4 4s1.8 4 4 4 4-1.8 4-4-1.8-4-4-4zm36.5 4c0-2.4-2.8-5-7.3-7.5-3-1.7-6.8-3.1-11-4.2 3.6-5.5 6.1-10.4 7-14.1.7-3.2.1-5.7-1.8-7.1-1.9-1.4-4.8-1.1-8.2.8-4.1 2.2-8.6 6-12.7 10.7-5.5-1-11.2-1.5-17.1-1.5-6 0-11.6.5-17.1 1.5-4.1-4.7-8.6-8.5-12.7-10.7-3.4-1.9-6.3-2.2-8.2-.8-1.9 1.4-2.5 3.9-1.8 7.1.9 3.7 3.4 8.6 7 14.1-4.2 1.1-8 2.5-11 4.2-4.5 2.5-7.3 5.1-7.3 7.5 0 2.4 2.8 5 7.3 7.5 3 1.7 6.8 3.1 11 4.2-3.6 5.5-6.1 10.4-7 14.1-.7 3.2-.1 5.7 1.8 7.1.9.7 2 1 3.2 1 1.6 0 3.3-.6 5-1.5 4.1-2.2 8.6-6 12.7-10.7 5.5 1 11.1 1.5 17.1 1.5 6 0 11.6-.5 17.1-1.5 4.1 4.7 8.6 8.5 12.7 10.7 1.7.9 3.4 1.5 5 1.5 1.2 0 2.3-.3 3.2-1 1.9-1.4 2.5-3.9 1.8-7.1-.9-3.7-3.4-8.6-7-14.1 4.2-1.1 8-2.5 11-4.2 4.5-2.5 7.3-5.1 7.3-7.5zm-36.5 25c-5.1 0-10.1-.4-14.9-1.3 2.9-3.4 5.9-7.1 8.6-11 2.1.3 4.2.4 6.3.4s4.2-.1 6.3-.4c2.7 3.9 5.7 7.6 8.6 11-4.8.9-9.8 1.3-14.9 1.3zM18.8 12.7c1.3-.7 2.9-.8 4.6.1 3.2 1.7 6.9 4.8 10.3 8.8-5.3 1.8-10.1 4-14.2 6.6-2.5-3.8-4.2-7.5-4.8-9.9-.4-1.8 0-3.3 1.1-4.1.9-.7 1.9-.9 3-.5zm-5.4 34.6c0-1.1 1.7-2.9 5.1-4.8 3.5-2 8.2-3.9 13.5-5.5.3.6.6 1.3.9 1.9-10.8 2.5-18.4 5.9-19.5 8.4-.1 0-.1 0 0 0s0 0 0 0zm2.4 26.6c-1.1-.8-1.5-2.2-1.1-4.1.6-2.4 2.3-6.1 4.8-9.9 4.1 2.6 8.9 4.8 14.2 6.6-3.4 4-7.1 7.1-10.3 8.8-1.7.9-3.3 1-4.6.3-.9-.6-1.5-1.2-3-1.7zm34.2 13.1c-6 0-11.6-.5-17.1-1.5.3-.4.6-.8.9-1.2 11.2-1.5 19.3-5 20.6-7.8-.1 0-.1 0 0 0 2-.4 4.5-.4 6.8.6 1.3.7 2.9.8 4.6-.1 3.2-1.7 6.9-4.8 10.3-8.8-5.3-1.8-10.1-4-14.2-6.6 2.5 3.8 4.2 7.5 4.8 9.9.4 1.8 0 3.3-1.1 4.1-.7.5-1.4.7-2 .7zm25.4-40.3c-3.4 2-8.1 3.9-13.5 5.5-.3-.6-.6-1.3-.9-1.9 10.8-2.5 18.4-5.9 19.5-8.4 0 0 0 0 0 0 0 0 0 0 0 0 3.4 1.9 5 3.7 5.1 4.8 0 1.1-1.7 2.9-5.2 4.8z" />
+            </svg>
+          </div>
+          <span class="badge">Frontend</span>
+          <h3>React</h3>
+          <p>Biblioteca de JavaScript para construir interfaces de usuario rápidas y reactivas.</p>
+        </a>
+
+        <!-- Backend -->
+        <a href="https://nestjs.com/" target="_blank" class="tech-card">
+          <div class="tech-icon-wrapper">
+            <svg class="tech-icon" viewBox="0 0 128 128">
+              <path
+                d="M117.8 72.8c-2.4 0-4.4-.7-6.2-2.1-1.8-1.4-3.2-3.4-4.2-5.9s-1.5-5.3-1.5-8.3c0-3 .5-5.8 1.5-8.3s2.4-4.5 4.2-5.9c1.8-1.4 3.8-2.1 6.2-2.1 2.4 0 4.4.7 6.2 2.1 1.8 1.4 3.2 3.4 4.2 5.9s1.5 5.3 1.5 8.3c0 3-.5 5.8-1.5 8.3s-2.4 4.5-4.2 5.9-3.8 2.1-6.2 2.1zm0-30.8c-1.5 0-2.8.5-4 1.4-1.2.9-2.1 2.2-2.7 3.8s-.9 3.5-.9 5.6c0 2.1.3 4 .9 5.6s1.5 2.9 2.7 3.8 2.5 1.4 4 1.4 2.8-.5 4-1.4 2.1-2.2 2.7-3.8.9-3.5.9-5.6c0-2.1-.3-4-.9-5.6s-1.5-2.9-2.7-3.8-2.5-1.4-4-1.4zM63.6 1.6L14.4 28.5v53.8l49.2 26.9L112.8 82.3V28.5L63.6 1.6zm41.2 80l-41.2 22.5L22.4 81.6V33.4l41.2-22.5 41.2 22.5v48.2z" />
+            </svg>
+          </div>
+          <span class="badge">Backend</span>
+          <h3>NestJS</h3>
+          <p>Framework progresivo de Node.js para construir aplicaciones eficientes y escalables.</p>
+        </a>
+
+        <!-- Lenguaje -->
+        <a href="https://www.typescriptlang.org/" target="_blank" class="tech-card">
+          <div class="tech-icon-wrapper">
+            <svg class="tech-icon" viewBox="0 0 24 24">
+              <path
+                d="M1.125 0C.502 0 0 .502 0 1.125V22.875c0 .623.502 1.125 1.125 1.125H22.875c.623 0 1.125-.502 1.125-1.125V1.125c0-.623-.502-1.125-1.125-1.125H1.125zm17.353 18.33c-.158.113-.746.502-1.898.502-1.288 0-2.01-.678-2.01-1.781v-7.14h1.761v6.936c0 .19.102.321.321.321.204 0 .34-.047.453-.113l.321.317.052.96zm-7.665.502c-1.356 0-2.327-.588-2.327-1.558 0-.588.384-1.018 1.13-1.31L11.5 15.3c.723-.271 1.017-.542 1.017-1.062 0-.429-.36-.881-1.288-.881-1.13 0-1.627.542-1.627 1.446l-.045 1.039-1.695-.136.046-1.288c0-1.875 1.355-2.734 3.321-2.734 2.01 0 3.016 1.084 3.016 2.44 0 .745-.429 1.152-1.186 1.468l-1.13.452c-.7.294-1.04.565-1.04.972 0 .588.543.836 1.22.836 1.107 0 1.762-.542 1.762-1.671l.045-1.039 1.695.136-.046 1.288c0 1.83-1.13 2.734-3.321 2.734z" />
+            </svg>
+          </div>
+          <span class="badge">Lenguaje</span>
+          <h3>TypeScript</h3>
+          <p>Superconjunto de JavaScript que añade tipado estático y mejores herramientas.</p>
+        </a>
+      </div>
+
+      <h2 style="margin-top: 40px; color: #4a5568; font-size: 1.5rem; font-weight: 700;">Herramientas de Desarrollo</h2>
+      <div class="tech-stack-grid" style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));">
+        <!-- Git -->
+        <div class="tech-card" style="padding: 20px;">
+          <div class="tech-icon-wrapper" style="width: 60px; height: 60px; margin-bottom: 15px;">
+            <svg class="tech-icon" style="width: 32px; height: 32px;" viewBox="0 0 24 24">
+              <path
+                d="M23.546 10.93L13.067.452a1.448 1.448 0 0 0-2.043 0l-1.924 1.924 3.128 3.128a2.637 2.637 0 0 1 3.267 3.268.318.318 0 0 1 .454.453 2.636 2.636 0 0 1-3.268 3.267l-3.128-3.128-2.584 2.583a2.636 2.636 0 0 1-3.267 3.268l-3.128-3.128-1.924 1.924a1.448 1.448 0 0 0 0 2.043l10.478 10.478a1.448 1.448 0 0 0 2.043 0l10.478-10.478a1.448 1.448 0 0 0 0-2.043z" />
+            </svg>
+          </div>
+          <h3>Git</h3>
+        </div>
+        <!-- GitHub -->
+        <div class="tech-card" style="padding: 20px;">
+          <div class="tech-icon-wrapper" style="width: 60px; height: 60px; margin-bottom: 15px;">
+            <svg class="tech-icon" style="width: 32px; height: 32px;" viewBox="0 0 24 24">
+              <path
+                d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.011-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+            </svg>
+          </div>
+          <h3>GitHub</h3>
+        </div>
+        <!-- NPM -->
+        <div class="tech-card" style="padding: 20px;">
+          <div class="tech-icon-wrapper" style="width: 60px; height: 60px; margin-bottom: 15px;">
+            <svg class="tech-icon" style="width: 32px; height: 32px;" viewBox="0 0 24 24">
+              <path
+                d="M1.763 0C.786 0 0 .786 0 1.763v20.474C0 23.214.786 24 1.763 24h20.474c.977 0 1.763-.786 1.763-1.763V1.763C24 .786 23.214 0 22.237 0H1.763zM5.13 5.323l13.837.019-.009 13.836h-3.464V8.718h-3.464V19.17H5.13V5.323z" />
+            </svg>
+          </div>
+          <h3>NPM</h3>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- You can also require other files to run in this process -->
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./renderer.js"></script>
+</body>
+
+</html>
