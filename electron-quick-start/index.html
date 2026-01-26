@@ -27,13 +27,212 @@
 
   <div class="container">
     <section id="inicio" class="content-section active">
-      <h1>Inicio</h1>
-      <p>Bienvenido al proyecto</p>
+      <div class="inicio-hero">
+        <img src="assets/steam.jpg" alt="STEAM Link" class="img-inicio">
+        <h1>STEAM LINK</h1>
+        <p class="inicio-subtitle">Plataforma digital para facilitar la articulación de prácticas profesionales entre estudiantes, Universidad y empresas.</p>
+      </div>
+
+      <div class="inicio-cards-grid">
+        <!-- Tarjeta Proyecto -->
+        <div class="inicio-card">
+          <div class="inicio-icon-wrapper">
+            <svg class="inicio-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+            </svg>
+          </div>
+          <h3>Proyecto Académico</h3>
+          <p>Módulo 2 del Diplomado en Metodologías Ágiles y Tecnologías Avanzadas - Universidad de Nariño.</p>
+        </div>
+
+        <!-- Tarjeta Objetivo -->
+        <div class="inicio-card">
+          <div class="inicio-icon-wrapper">
+            <svg class="inicio-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+          </div>
+          <h3>Objetivo</h3>
+          <p>Centralizar oportunidades de prácticas y pasantías, permitiendo una comunicación más eficiente y transparente entre todos los actores involucrados.</p>
+        </div>
+      </div>
+
+      <!-- Sección Integrantes -->
+      <div class="inicio-team">
+        <h2>Integrantes del Equipo</h2>
+        <div class="team-grid">
+          <div class="team-member-card">
+            <div class="member-avatar">LC</div>
+            <span>Luz Carine Ortega Chaucanes</span>
+          </div>
+          <div class="team-member-card">
+            <div class="member-avatar">RV</div>
+            <span>Ronald Ariel Vargas Negret</span>
+          </div>
+          <div class="team-member-card">
+            <div class="member-avatar">JN</div>
+            <span>Juan Camilo Nupan Portilla</span>
+          </div>
+          <div class="team-member-card">
+            <div class="member-avatar">JD</div>
+            <span>Jhonatan Juan Carlos Delgado Gómez</span>
+          </div>
+          <div class="team-member-card">
+            <div class="member-avatar">CT</div>
+            <span>Camila Dayana Torres Cortes</span>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section id="proyecto" class="content-section">
       <h1>Acerca del Proyecto</h1>
-      <p>Descripción del proyecto...</p>
+      <div class="proyecto-intro">
+        <div class="proyecto-intro-content">
+          <h2 class="proyecto-subtitle">Descripción del Problema</h2>
+          <p class="proyecto-description">
+            Actualmente, existe una <strong>desconexión significativa</strong> entre el talento académico formado en las 
+            instituciones de educación superior (específicamente en áreas <span class="stem-badge">STEM</span>: 
+            Ciencia, Tecnología, Ingeniería y Matemáticas) y las necesidades reales del sector productivo.
+          </p>
+          <p class="proyecto-description">
+            Esta brecha genera fricciones importantes para los tres actores principales del ecosistema educativo-laboral, 
+            limitando el potencial de desarrollo profesional y económico de la región.
+          </p>
+        </div>
+        <div class="proyecto-intro-visual">
+          <div class="problema-visual">
+            <div class="visual-circle academia">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 14l9-5-9-5-9 5 9 5z"/>
+                <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"/>
+                <path d="M12 14l9-5-9-5-9 5 9 5zm0 0v6"/>
+              </svg>
+              <span>Academia</span>
+            </div>
+            <div class="visual-gap">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M13 10V3L4 14h7v7l9-11h-7z"/>
+              </svg>
+              <span>Brecha</span>
+            </div>
+            <div class="visual-circle empresa">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/>
+              </svg>
+              <span>Empresas</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tarjetas de actores afectados -->
+      <h2 class="proyecto-section-title">Actores del Ecosistema Afectados</h2>
+      <div class="actores-grid">
+        <!-- Estudiantes -->
+        <div class="actor-card estudiantes">
+          <div class="actor-icon-wrapper">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 14l9-5-9-5-9 5 9 5z"/>
+              <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"/>
+            </svg>
+          </div>
+          <div class="actor-badge">Estudiantes Egresados</div>
+          <h3>Dificultad de Inserción Laboral</h3>
+          <p>
+            Los estudiantes enfrentan una <strong>dificultad significativa</strong> para encontrar ofertas de prácticas 
+            profesionales que se alineen específicamente con su perfil técnico y académico. Los portales de empleo 
+            genéricos suelen estar saturados de ofertas irrelevantes, obstaculizando su primera inserción laboral 
+            en el campo STEM.
+          </p>
+        </div>
+
+        <!-- Empresas -->
+        <div class="actor-card empresas">
+          <div class="actor-icon-wrapper">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/>
+            </svg>
+          </div>
+          <div class="actor-badge">Empresas</div>
+          <h3>Reclutamiento Ineficiente</h3>
+          <p>
+            Los procesos de reclutamiento para perfiles técnicos son <strong>altamente ineficientes</strong>. Las 
+            organizaciones invierten demasiados recursos filtrando hojas de vida que no cumplen con las competencias 
+            base, debido a la falta de un canal directo con las facultades y programas académicos especializados.
+          </p>
+        </div>
+
+        <!-- Universidad -->
+        <div class="actor-card universidad">
+          <div class="actor-icon-wrapper">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M8 14v3m4-3v3m4-3v3M3 21h18M3 10h18M3 7l9-4 9 4M4 10h16v11H4V10z"/>
+            </svg>
+          </div>
+          <div class="actor-badge">Universidad</div>
+          <h3>Gestión Limitada</h3>
+          <p>
+            Existe una <strong>falta de herramientas digitales centralizadas</strong> que permitan gestionar, medir y 
+            fortalecer el vínculo con el entorno empresarial. Esto limita considerablemente el seguimiento al éxito 
+            profesional de los egresados y la retroalimentación del mercado laboral.
+          </p>
+        </div>
+      </div>
+
+      <!-- Solución-->
+      <div class="solucion-section">
+        <div class="solucion-content">
+          <div class="solucion-badge">La Solución</div>
+          <h2>STEAM Link</h2>
+          <p>
+            <strong>STEAM Link</strong> nace para solucionar este problema de articulación, proveyendo una 
+            <strong>plataforma centralizada</strong> que optimiza el "match" entre las competencias adquiridas 
+            en la academia y las demandas del mercado laboral.
+          </p>
+          <div class="solucion-features">
+            <div class="feature-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+              </svg>
+              <span>Conexión directa estudiante-empresa</span>
+            </div>
+            <div class="feature-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+              </svg>
+              <span>Filtrado inteligente por competencias</span>
+            </div>
+            <div class="feature-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+              </svg>
+              <span>Seguimiento y métricas para la universidad</span>
+            </div>
+          </div>
+        </div>
+        <div class="solucion-visual">
+          <div class="match-visual">
+            <div class="match-circle left">
+              <span>👨‍🎓</span>
+              <small>Talento</small>
+            </div>
+            <div class="match-connector">
+              <div class="connector-line"></div>
+              <div class="match-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                </svg>
+              </div>
+              <div class="connector-line"></div>
+            </div>
+            <div class="match-circle right">
+              <span>💼</span>
+              <small>Oportunidad</small>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section id="autores" class="content-section py-5">
@@ -77,6 +276,56 @@
             </div>
           </div>
 
+
+          <!-- Autor 3 -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100 text-center">
+              <img src="./assets/fotoc.jpg" class="card-img-top" alt="Camila Torres">
+              <div class="card-body">
+                <h5 class="card-title">Camila Torres</h5>
+                <p class="card-text">
+                  Mi nombre es <strong>Camila Dayana Torres Cortes</strong>, egresada del programa de 
+                    <strong>Ingeniería de Sistemas</strong> de la <strong>Universidad de Nariño</strong> 
+                    (aún no titulada). Actualmente curso el diplomado en 
+                    <strong>Metodologías Ágiles</strong>, y desempeño labores en una 
+                    <strong>bodega de licores al por mayor</strong>, gestionando inventarios, créditos 
+                     y proveedores de manera sistematizada.
+                  
+              </div>
+            </div>
+         </div>
+
+         <!-- Autor 4 -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100 text-center">
+              <img src="./assets/fotocam.jpeg" class="card-img-top" alt="Camilo Nupan">
+              <div class="card-body">
+                <h5 class="card-title">Camilo Nupan</h5>
+                <p class="card-text">
+                  Mi nombre es <strong>Juan Camilo Nupan Portilla</strong>, soy estudiante del programa de 
+                    <strong>Ingeniería de Sistemas</strong> en la <strong>Universidad de Nariño</strong>
+                    sede Pasto. Actualmente estoy realizando el diplomado
+                    <strong>Metodologías Ágiles y tecnológicas avanzadas</strong> como proyecto de grado.
+                  
+              </div>
+            </div>
+         </div>
+
+         <!-- Autor  -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100 text-center">
+              <img src="./assets/foto_r.jpg" class="card-img-top" alt="Ronald Vargas">
+              <div class="card-body">
+                <h5 class="card-title">Ronald Vargas</h5>
+                <p class="card-text">
+                  Mi nombre es <strong>Ronald ariel Vargas Negret</strong>, soy estudiante del programa de 
+                    <strong>Ingeniería de Sistemas</strong> en la <strong>Universidad de Nariño</strong>
+                    sede Tumaco. Actualmente estoy realizando el diplomado
+                    <strong>Metodologías Ágiles y tecnológicas avanzadas</strong> como proyecto de grado.
+                  
+              </div>
+            </div>
+         </div>
 
         </div>
 
@@ -168,17 +417,6 @@
     </section>
 
   </div>
-
-  <h1>Hello World!</h1>
-  We are using Node.js <span id="node-version"></span>,
-  Chromium <span id="chrome-version"></span>,
-  and Electron <span id="electron-version"></span>.
-  <h1>Luz Carine Ortega Chaucanes</h1>
-  <h1>Ronald Ariel Vargas Negret</h1>
-  <h1>Juan Camilo Nupan Portilla</h1>
-  <h1>Jhonatan Juan Carlos Delgado Gómez</h1>
-  <h1>Camila Dayana Torres Cortes</h1>
-
 
   <!-- You can also require other files to run in this process -->
   <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
